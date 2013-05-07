@@ -50,7 +50,7 @@ slides > slide {
   }
 
   &:not(.nobackground) {
-    background: white url(../../images/io_extended_icon.png) ($brand-small-icon-size * 2) 98% no-repeat;
+    background: white;
     @include background-size($brand-small-icon-size $brand-small-icon-size);
 
     &:before {
