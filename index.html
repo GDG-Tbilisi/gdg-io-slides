@@ -21,7 +21,6 @@ URL: https://code.google.com/p/io-2012-slides
   <link rel="stylesheet" media="all" href="theme/css/io2013-gdg.css">
   <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
   <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
-  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
 </head>
 <body style="opacity: 0">
 
@@ -198,11 +197,10 @@ function helloWorld(world) {
 
   <slide>
     <hgroup>
-      <h2>Slide with Image</h2>
+      <h2>Slide with Chart</h2>
     </hgroup>
-    <article>
-      <img src="http://chart.googleapis.com/chart?chs=600x325&cht=p&chd=s:Uf9a&chdl=30°|40°|50°|60°"
-       class="reflect" alt="Description" title="Description">
+    <article class="flexbox vcenter">
+      <canvas data-chart="Line" data-data="charts/1.js" width="600" height="400" />
       <footer class="source">source: place source info here</footer>
     </article>
   </slide>
@@ -398,6 +396,9 @@ function helloWorld(world) {
   <slide class="backdrop"></slide>
 
 </slides>
+
+<script src="js/lazyload.min.js"></script>
+<script src="js/slides.js"></script>
 
 <!--[if IE]>
   <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
