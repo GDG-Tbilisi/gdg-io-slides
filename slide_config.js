@@ -22,12 +22,12 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Nikoloz Shvelidze',
-    company: 'Web Developer<br>LemonDo',
-    gplus: 'http://nicksh.com/plus',
-    twitter: '@shvelo96',
-    www: 'http://www.nicksh.com',
-    github: 'http://github.com/shvelo'
+    name: 'GDG Tbilisi',
+    company: 'GDG Tbilisi',
+    gplus: 'https://plus.google.com/u/0/106672659252619762166/posts',
+    twitter: '#GDGTbilisi',
+    www: 'http://gdgtbilisi.blogspot.com/',
+    github: 'http://github.com/GDG-Tbilisi'
   }]
 };
 
